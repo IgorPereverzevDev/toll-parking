@@ -14,16 +14,6 @@ public class Electric implements CarEngine {
     }
 
     @Override
-    public Gasoline createGasoline(EngineType carEngine) {
-        return null;
-    }
-
-    @Override
-    public Electric createElectric(EngineType carEngine, int power) {
-        return new Electric(carEngine, power);
-    }
-
-    @Override
     public int getPower() {
         return power;
     }
